@@ -1,0 +1,15 @@
+.logo {
+  width: 100%;
+  height: 45px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #1E73BE;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+.navbar-nav .nav-link:hover {
+  color: #1E73BE;
+}/*# sourceMappingURL=header.css.map */

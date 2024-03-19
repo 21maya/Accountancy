@@ -1,0 +1,50 @@
+.banner-caption {
+  color: #3b7fd9;
+  max-width: 60%;
+  max-height: 100%;
+  top: 25%;
+  left: 10%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.banner-caption .banner-title {
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.banner-caption .banner-title.animate__animated.animate__fadeInDown {
+  --animate-duration: 1s;
+  --animate-delay: 0.5;
+}
+.banner-caption .banner-body {
+  margin-top: 5%;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner-caption .banner-body.animate__animated.animate__fadeInDown {
+  --animate-duration: 1s;
+  --animate-delay: 2s;
+}
+.banner-caption .banner-buttons {
+  bottom: -30%;
+}
+.banner-caption .banner-buttons .bhg {
+  border: none;
+}
+.banner-caption .banner-buttons .bhg:hover {
+  background: #18BA60;
+}
+
+.carousel-control-prev-icon {
+  border: 1px solid white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.carousel-control-next-icon {
+  border: 1px solid white;
+  font-size: 14px;
+  padding: 10px;
+}/*# sourceMappingURL=sliderbanner.css.map */

@@ -1,0 +1,29 @@
+.call-back-form {
+  background: #2E363A;
+  margin: 6% 0 7% 0;
+  font-size: 14px;
+}
+.call-back-form .form-box {
+  background: #1E73BE;
+  padding: 5% 5% 20% 5%;
+  width: 85%;
+  border-radius: 0 20px;
+}
+.call-back-form .form-box .submit-btn {
+  padding: 14px 10px;
+  font-size: 14px;
+}
+.call-back-form .form-box .email-field {
+  margin-left: -8%;
+}
+.call-back-form .btn-field {
+  width: 85%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.call-back-form p {
+  margin-top: 20px;
+  line-height: 24px;
+}/*# sourceMappingURL=callbackform.css.map */

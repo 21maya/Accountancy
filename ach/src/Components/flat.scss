@@ -1,0 +1,47 @@
+.flat-btn {
+    background: #627886;
+    bottom: 5px;
+    left: 10%;
+    right: 10%;
+    padding: 10px;
+
+    .bi-chevron-right {
+        right: 8%;
+        top: 30%;
+        bottom: 30%;
+        font-size: 15px;
+    }
+}
+
+.img-box {
+    overflow: hidden;
+
+    .top-anim {
+        color: #fff;
+        padding: 15px;
+        background: #6278868e;
+        height: 100%;
+        top: 0%;
+        transform: translateY(-300px);
+        .top-anim-btn{
+            border: none;
+            &:hover{
+                background: #fff;
+                color: #000;
+            }
+        }
+    }
+
+    &:hover {
+        .flat-btn {
+            transform: translateY(200px);
+            transition: 0.9s;
+        }
+        .top-anim{
+            transform: translateY(0);
+            transition: 0.9s;
+        }
+
+    }
+
+}

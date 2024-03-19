@@ -1,0 +1,48 @@
+footer{
+    background: #2E363A;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-icon{
+    background:  #1E73BE;
+    border-radius: 50%;
+    padding: 10px;
+}
+.footer-border{
+    border-bottom: 1px solid #394348;
+
+}
+.fs{
+    font-size: 14px;
+}
+.getintouch{
+    border-radius: 0 20px;
+    max-width: 420px;
+    background: #1E73BE;
+    padding: 50px 15px 30px 40px;
+    .get-input{
+        background: #F1E5F8;
+    }
+}
+.submit{
+    background: #2EAA2E;
+    width: 30%; height: 40px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.footer-border-top{
+    border-top: 1px solid #394348;
+    padding: 20px 0 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.last-footer{
+    a:hover{
+        color: green;
+    }
+}

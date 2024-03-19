@@ -1,0 +1,33 @@
+.about-descrp {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 24px;
+}
+
+#carouselExampleAutoplaying .carousel-control-prev-icon {
+  display: none;
+}
+#carouselExampleAutoplaying .carousel-control-next-icon {
+  display: none;
+}
+#carouselExampleAutoplaying:hover .carousel-control-prev-icon {
+  display: block;
+}
+#carouselExampleAutoplaying:hover .carousel-control-next-icon {
+  display: block;
+}
+
+.service-list {
+  margin-top: 10%;
+  padding: 0;
+}
+.service-list a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.service-list a:hover {
+  color: #1e73be;
+}/*# sourceMappingURL=about.css.map */

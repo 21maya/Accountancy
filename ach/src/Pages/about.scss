@@ -1,0 +1,49 @@
+.about-descrp {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 24px;
+}
+
+#carouselExampleAutoplaying {
+    .carousel-control-prev-icon {
+        display: none;
+    }
+
+    .carousel-control-next-icon {
+        display: none;
+    }
+
+    &:hover {
+        .carousel-control-prev-icon {
+            display: block;
+        }
+
+        .carousel-control-next-icon {
+            display: block;
+        }
+    }
+}
+// .ourservice-title1{
+//     position: relative;
+
+//     &::after{
+//         content: "";
+//         width: 50px; height: 4px; background: #1E73BE;
+//         position: absolute; bottom: -12px; left: 23%;
+//     }
+// }
+
+.service-list {
+    margin-top: 10%; padding: 0;
+    a {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 35px;
+
+        &:hover {
+            color: #1e73be;
+        }
+    }
+}
